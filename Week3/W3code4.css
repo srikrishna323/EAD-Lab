@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.container{
+    height: 100px;
+    background-color: cadetblue;
+    display: inline-block;
+    align-items: center;
+}
+
+.container li{
+   display: inline-block; 
+}
+.container a{
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+}
+a:hover{
+    background-color: brown;
+    color: black;
+}

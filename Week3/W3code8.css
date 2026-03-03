@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.signup{
+    height: 300px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left:450px;
+    background-color: beige;
+    border: 1,3px solid black;
+    box-shadow: 5px 5px 5px 3px rgba(0,0,0,0.5);
+}
+form{
+    padding: 10px;
+    margin: 10px;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+}
+#sign{
+    height: 23px;
+    width: 55px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#sign:hover{
+    color: black;
+    background-color: aqua;
+}
