@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    height: 100vh;
+}
+.left, .right {
+    flex: 1;              
+    padding: 20px;
+}
+.left {
+    background: #74b9ff;
+}
+.right {
+    background: #55efc4;
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;  
+    }
+    .left, .right {
+        height: 50vh;
+    }
+}

@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+h3 ,p ,input ,label ,textarea {
+    margin: 5px;
+    padding: 5px;
+}
+textarea{
+    width: 300px;
+    height: 100px;
+}
+input:focus{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: beige;
+}
