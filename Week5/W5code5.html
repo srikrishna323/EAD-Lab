@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Salary Calculator</title>
+    <link rel="stylesheet" href="W5code5.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Employee Salary Calculator</h2>
+        <input type="text" id="name" placeholder="Enter Name">
+        <input type="number" id="basic" placeholder="Enter Basic Salary">
+        <input type="number" id="hra" placeholder="Enter HRA (default 2000)">
+        <input type="number" id="ta" placeholder="Enter TA (default 1000)">
+        <button onclick="calculate()">Calculate Salary</button>
+        <div class="result">
+            <p id="gross"></p>
+            <p id="tax"></p>
+            <p id="net"></p>
+        </div>
+    </div>
+    <script src="W5code5.js"></script>
+</body>
+</html>
